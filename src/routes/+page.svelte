@@ -23,13 +23,13 @@
 			</div>
 			<div class="inline-block text-4xl">Diffusion On Syntax Trees For Program Synthesis</div>
 			<div class="mt-8 text-lg md:text-xl flex underline text-gray-200 flex-col md:flex-row">
-				<div>
+				<div class="hover:text-black hover:bg-white">
 					<a href="https://shreyaskapur.com" target="_blank" rel="noreferrer">Shreyas Kapur</a>,
 				</div>
-				<div class="md:ml-4">
+				<div class="md:ml-4 hover:text-black hover:bg-white">
 					<a href="https://ejenner.com/" target="_blank" rel="noreferrer">Erik Jenner</a>,
 				</div>
-				<div class="md:ml-4">
+				<div class="md:ml-4 hover:text-black hover:bg-white">
 					<a href="https://people.eecs.berkeley.edu/~russell/" target="_blank" rel="noreferrer"
 						>Stuart Russell</a
 					>
@@ -55,12 +55,14 @@
 							arXiv
 						</div>
 					</LinkButton>
-					<LinkButton>
-						<div class="flex items-center">
-							<GithubIcon class="inline-block mr-1" />
-							Code & Weights
-						</div>
-					</LinkButton>
+					<a href="https://github.com/revalo/tree-diffusion">
+						<LinkButton>
+							<div class="flex items-center">
+								<GithubIcon class="inline-block mr-1" />
+								Code & Weights
+							</div>
+						</LinkButton>
+					</a>
 				</div>
 				<div class="pb-4">
 					<strong>TLDR;</strong> We teach neural models to *edit* programs, informed by the execution
@@ -151,7 +153,7 @@
 					<a href="#" target="_blank" rel="noreferrer" class="mr-2">
 						<PaperIcon class="inline-block hover:text-black" />
 					</a>
-					<a href="#" target="_blank" rel="noreferrer">
+					<a href="https://github.com/revalo/tree-diffusion" target="_blank" rel="noreferrer">
 						<GithubIcon class="inline-block hover:text-black" />
 					</a>
 				</div>
