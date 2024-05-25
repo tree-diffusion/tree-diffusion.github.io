@@ -139,8 +139,8 @@
 }`}</pre>
 			</div>
 			<div class="text-base mt-8">
-				We would like to thank Kathy Jang, Cam Allen, Sam Toyer, Eli Bronstein, Koushik Sen, and
-				Pieter Abbeel for discussions, feedback, and technical support.
+				We would like to thank Kathy Jang, David Wu, Cam Allen, Sam Toyer, Eli Bronstein, Koushik
+				Sen, and Pieter Abbeel for discussions, feedback, and technical support.
 			</div>
 			<!-- <div class="w-full flex justify-center items-center flex-col h-32"></div> -->
 		</div>
