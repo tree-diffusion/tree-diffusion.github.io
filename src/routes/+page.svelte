@@ -120,7 +120,7 @@
 
 	<div class="flex w-full justify-center font-sans mt-16">
 		<div class="mx-8 max-w-3xl w-full">
-			<h1 class="mb-4 text-3xl font-bold">Citation</h1>
+			<h1 class="mb-4 text-3xl font-bold" id="citation">Citation</h1>
 			<div
 				class="font-mono text-sm mt-4 bg-gray-100 px-4 py-4 border-2 border-solid border-gray-200 rounded-md w-full"
 			>
