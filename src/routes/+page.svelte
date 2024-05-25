@@ -9,6 +9,10 @@
 	import LinkButton from '../lib/components/LinkButton.svelte';
 </script>
 
+<svelte:head>
+	<title>Tree Diffusion</title>
+</svelte:head>
+
 <div class="text-lg">
 	<div class="flex w-full justify-center font-sans items-end bg-black">
 		<div class="mx-8 max-w-3xl w-full text-white pb-12 pt-8 md:pt-28">
