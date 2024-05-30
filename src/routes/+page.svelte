@@ -113,7 +113,7 @@
 			<h1 class="mb-8 text-3xl font-bold">Tree diffusion lets us use search in program space.</h1>
 
 			<div class="w-full flex items-center justify-center">
-				<video src="/videos/search.mp4" autoplay loop muted width="300"></video>
+				<video src="/videos/search.mp4" autoplay loop muted playsinline width="300"></video>
 			</div>
 
 			<div class="mt-4">
