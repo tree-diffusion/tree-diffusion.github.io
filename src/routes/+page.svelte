@@ -22,14 +22,14 @@
 				JUNE 2024
 			</div>
 			<div class="inline-block text-4xl">Diffusion On Syntax Trees For Program Synthesis</div>
-			<div class="mt-8 text-lg md:text-xl flex underline text-gray-200 flex-col md:flex-row">
+			<div class="mt-8 text-lg flex underline text-gray-200 flex-col md:flex-row">
 				<div class="hover:text-black hover:bg-white">
 					<a href="https://shreyaskapur.com" target="_blank" rel="noreferrer">Shreyas Kapur</a>,
 				</div>
-				<div class="md:ml-4 hover:text-black hover:bg-white">
+				<div class="md:ml-2 hover:text-black hover:bg-white">
 					<a href="https://ejenner.com/" target="_blank" rel="noreferrer">Erik Jenner</a>,
 				</div>
-				<div class="md:ml-4 hover:text-black hover:bg-white">
+				<div class="md:ml-2 hover:text-black hover:bg-white">
 					<a href="https://people.eecs.berkeley.edu/~russell/" target="_blank" rel="noreferrer"
 						>Stuart Russell</a
 					>
@@ -63,7 +63,8 @@
 						<LinkButton>
 							<div class="flex items-center">
 								<GithubIcon class="inline-block mr-1" />
-								Code & Weights
+								<span class="hidden md:block">Code & Weights</span>
+								<span class="md:hidden block">Code</span>
 							</div>
 						</LinkButton>
 					</a>

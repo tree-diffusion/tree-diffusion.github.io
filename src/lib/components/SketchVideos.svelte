@@ -14,10 +14,12 @@
 	<video src={currentVideo.video} autoplay loop muted playsinline class="max-w-xl w-full"></video>
 </div>
 <div class="mt-4 italic">(Select A Sketch Below)</div>
-<div class="md:flex md:flex-row md:justify-center md:items-center mt-2">
+<div
+	class="md:flex md:flex-row md:justify-center md:items-center grid grid-flow-row-dense grid-cols-3 mt-2"
+>
 	{#each heroVideos as video}
 		<button
-			class="transition border-2 border-solid w-24 h-24 p-2 rounded-md m-2 cursor-pointer"
+			class="transition border-2 border-solid md:w-24 md:h-24 w-20 h-20 p-2 rounded-md m-2 cursor-pointer"
 			class:border-gray-300={currentVideo !== video}
 			class:hover:border-gray-500={currentVideo !== video}
 			class:border-blue-500={currentVideo === video}
