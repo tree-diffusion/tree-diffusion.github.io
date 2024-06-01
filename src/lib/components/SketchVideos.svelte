@@ -8,10 +8,23 @@
 	];
 
 	let currentVideo = heroVideos[0];
+
+	let playbackRate = 1;
+	setInterval(() => {
+		playbackRate = 1;
+	}, 200);
 </script>
 
 <div class="border-2 border-gray-300 border-solid inline-block p-8 rounded-md">
-	<video src={currentVideo.video} autoplay loop muted playsinline class="max-w-xl w-full"></video>
+	<video
+		src={currentVideo.video}
+		autoplay
+		loop
+		muted
+		playsinline
+		bind:playbackRate
+		class="max-w-xl w-full"
+	></video>
 </div>
 <div class="mt-4 italic">(Select A Sketch Below)</div>
 <div
