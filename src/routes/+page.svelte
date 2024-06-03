@@ -48,7 +48,7 @@
 		<div class="mx-8 max-w-3xl w-full">
 			<div class="w-full flex justify-center items-center flex-col">
 				<div class="flex text-sm md:text-base mb-8 mt-4">
-					<a href="/paper.pdf">
+					<a href="https://arxiv.org/pdf/2405.20519">
 						<LinkButton class="mr-4">
 							<div class="flex items-center">
 								<PaperIcon class="inline-block mr-1" />
@@ -56,7 +56,7 @@
 							</div>
 						</LinkButton>
 					</a>
-					<a href="/paper.pdf">
+					<a href="https://arxiv.org/abs/2405.20519">
 						<LinkButton class="mr-4">
 							<div class="flex items-center">
 								<ArxivIcon class="inline-block mr-1" />
@@ -168,7 +168,7 @@
 		<div class="mx-8 max-w-3xl w-full">
 			<div class="w-full flex justify-start items-center flex-col">
 				<div class="text-gray-500 mt-4 text-2xl mb-8">
-					<a href="/paper.pdf" target="_blank" rel="noreferrer" class="mr-2">
+					<a href="https://arxiv.org/abs/2405.20519" target="_blank" rel="noreferrer" class="mr-2">
 						<PaperIcon class="inline-block hover:text-black" />
 					</a>
 					<a href="https://github.com/revalo/tree-diffusion" target="_blank" rel="noreferrer">
