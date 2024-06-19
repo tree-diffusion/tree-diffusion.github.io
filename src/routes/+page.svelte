@@ -149,11 +149,11 @@
 				class="font-mono text-sm mt-4 bg-gray-100 px-4 py-4 border-2 border-solid border-gray-200 rounded-md w-full"
 			>
 				<pre class="whitespace-pre-wrap">
-{`@inproceedings{kapur2024diffusion,
-	title = {Diffusion On Syntax Trees For Program Synthesis},
-	author = {Kapur, Shreyas and Jenner, Erik and Russell, Stuart},
-	booktitle = {arXiv},
-	year = {2024},
+{`@article{kapur2024diffusion,
+	title={Diffusion On Syntax Trees For Program Synthesis},
+	author={Kapur, Shreyas and Jenner, Erik and Russell, Stuart},
+	journal={arXiv preprint arXiv:2405.20519},
+	year={2024}
 }`}</pre>
 			</div>
 			<div class="text-base mt-8">
