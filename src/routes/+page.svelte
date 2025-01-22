@@ -24,7 +24,7 @@
 			<div
 				class="font-sans uppercase text-xs mb-4 tracking-widest text-gray-300 border-1 border border-solid border-gray-300 inline-block px-2 py-1 rounded-md"
 			>
-				JUNE 2024
+				ICLR 2025
 			</div>
 			<div class="inline-block text-4xl">Diffusion On Syntax Trees For Program Synthesis</div>
 			<div class="mt-8 text-lg flex underline text-gray-200 flex-col md:flex-row">
